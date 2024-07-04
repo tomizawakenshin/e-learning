@@ -34,11 +34,11 @@ const WaitingPage = () => {
                 description="Move two matchsticks to make them 「人」"
             />
             <ImageSection src={matchStickImage.src} alt="match" width="w-96" />
-            <button
+            {/* <button
                 className="rounded-full bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-700 mr-2"
                 onClick={handleGameStart}>
                 デモで動かす場合はこちらから
-            </button>
+            </button> */}
 
         </div>
     );
